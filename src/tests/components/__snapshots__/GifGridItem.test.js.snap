@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Gif Grid Item Renderizar el GifGridItem 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="Prueba Apps"
+    src="http://localhost/prueba.png"
+  />
+  <p>
+     
+    Prueba Apps
+     
+  </p>
+</div>
+`;

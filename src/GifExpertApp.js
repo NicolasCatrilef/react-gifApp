@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { AddCategory } from "./component/AddCategory";
 import { GifGrid } from "./component/GifGrid";
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
 
-    const [categories, setCategories] = useState([ 'Kimetsu No Yaiba' ]);
+    // const [categories, setCategories] = useState([ 'Kimetsu No Yaiba' ]);
+    const [categories, setCategories] = useState( defaultCategories );
 
     // const handleAdd = ( e ) => {
 
     //     setCategories( [ 'Kimetsu No Yaiba', ...categories ] );
 
-    // }
+    // } 
     
     return (
         <>
